@@ -20,7 +20,7 @@ export const OptionScreen = ({ navigation, route }) => {
             {item.type}
           </Text>
           <View style={styles.section}>
-            <Text style={styles.heading}>Toppings: </Text>
+            <Text testID="fixedToppings" style={styles.heading}>Toppings: </Text>
             <Text style={styles.uppercase}>{item.toppings.join(', ')}</Text>
           </View>
         </View>
